@@ -7,3 +7,4 @@ flask_wtf
 matplotlib
 pytest
 flask_testing
+opencv-python
