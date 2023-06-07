@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Изменённые изображения</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #ADFF2F;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Изменённые изображения</h1>
+    <fieldset>
+        <img src="{{ url_for('static', filename='changed/figma.jpg') }}" alt="freedickcack" height="300px" width="300px">
+        <img src="{{ url_for('static', filename='changed/rotated.jpg') }}" alt="freedickcack" height="300px" width="300px">
+        <img src="{{ url_for('static', filename='graph/histogram.png') }}" alt="freedickcack" height="500px" width="500px">
+        <img src="{{ url_for('static', filename='graph/histogram.png') }}" alt="freedickcack" height="500px" width="500px">
+    </fieldset>
+    <h2><a href="/">Вернуться на начальную страницу</a></h2>
+</body>
+</html>
