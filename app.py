@@ -132,4 +132,4 @@ def rotate():
 if __name__ == '__main__':
     app.config['UPLOAD_FOLDER'] = 'upload'
     app.run()
-
+asdasdasdasd
